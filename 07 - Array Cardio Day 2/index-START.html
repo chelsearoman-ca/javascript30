@@ -32,6 +32,11 @@
         return true;
       }
     });
+
+    console.log({superOld});
+
+    const superOld = people.some(person => (new Date ()).getFullYear() - person.yera >= 19);
+    });
     // Array.prototype.every() // is everyone 19 or older?
 
     // Array.prototype.find()
